@@ -132,15 +132,15 @@ const SYSTEM_PROMPTS = {
 // 模型配置（包含模型名称和对应的prompt）
 const MODEL_CONFIGS = {
     polite: {
-        model: 'DeepSeek-V3.2-Exp',
+        model: 'deepseek-chat',
         systemPrompt: SYSTEM_PROMPTS.polite
     },
     neutral: {
-        model: 'DeepSeek-V3.2-Exp',
+        model: 'deepseek-chat',
         systemPrompt: SYSTEM_PROMPTS.neutral
     },
     impolite: {
-        model: 'DeepSeek-V3.2-Exp',
+        model: 'deepseek-chat',
         systemPrompt: SYSTEM_PROMPTS.impolite
     }
 };
