@@ -1531,7 +1531,7 @@ class ExperimentManager {
             } else if (typeof SYSTEM_PROMPTS !== 'undefined') {
                 // 如果只有SYSTEM_PROMPTS，构建配置（需要模型名称，这里使用默认值）
                 return {
-                    model: 'DeepSeek-V3.2-Exp',
+                    model: 'deepseek-chat',
                     systemPrompt: SYSTEM_PROMPTS[type]
                 };
             } else {
@@ -2016,15 +2016,15 @@ class ExperimentManager {
         } else if (typeof SYSTEM_PROMPTS !== 'undefined') {
             modelConfigs = {
                 polite: {
-                    model: 'DeepSeek-V3.2-Exp',
+                    model: 'deepseek-chat',
                     systemPrompt: SYSTEM_PROMPTS.polite
                 },
                 neutral: {
-                    model: 'DeepSeek-V3.2-Exp',
+                    model: 'deepseek-chat',
                     systemPrompt: SYSTEM_PROMPTS.neutral
                 },
                 impolite: {
-                    model: 'DeepSeek-V3.2-Exp',
+                    model: 'deepseek-chat',
                     systemPrompt: SYSTEM_PROMPTS.impolite
                 }
             };
